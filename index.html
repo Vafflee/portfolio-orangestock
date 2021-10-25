@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport"
 				content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-				content="Gulp pack for easy html/php markup development">
+				content="My adaptive and responsive Orangestock layout copy for portfolio">
 	<meta name="keywords"
 				content="">
 	<link rel="shortcut icon"
@@ -22,10 +22,27 @@
 				href="css/libs.min.css">
 	<link rel="stylesheet"
 				href="css/style.min.css">
-	<title>Easy-webdev-startpack v3.0</title>
+	<title>Orangestock</title>
 </head>
 
 	<body>
+		<div class="modal-try">
+    <div class="modal-try__content">
+        <div class="modal-try__head">
+            <div class="modal-try__title">
+                Регистрация
+            </div>
+            <button class="modal-try__close icon-plus"></button>
+        </div>
+        <form class="modal-try__form" action="#" method="get">
+            <label for="login" class="modal-try__label">Логин:</label>
+            <input id="login" type="login" class="modal-try__input">
+            <label for="password" class="modal-try__label">Пароль:</label>
+            <input id="password" type="password" class="modal-try__input">
+            <button type="submit" class="modal-try__button button">Зарегестрироваться</button>
+        </form>
+    </div>
+</div>
 		<header class="container header">
     <div class="header__logo">
         <div class="header__icon icon-logo"></div>
@@ -310,10 +327,15 @@
                 </div>
             </div>
         </div>
+        <button class="button button_try">
+            Попробовать сейчас!
+        </button>
     </div>
 </div>
 		</main>
-		<footer class="footer"></footer>
+		<footer class="footer">
+    @ 2021” Все права защищены
+</footer>
 
 		<script src="js/libs.min.js"></script>
 <script src="js/main.min.js"></script>
